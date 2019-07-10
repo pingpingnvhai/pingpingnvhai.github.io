@@ -1,0 +1,123 @@
+
+body {
+   background-image: url('bird1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: lightblue;
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+header {
+  background-color: lightblue;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+header p {
+  margin-bottom: 40px;
+  padding: 40px;
+}
+nav {
+  background-color:  #BFC069;
+  height: 120px;
+
+}
+nav li{
+  background-color: lightblue;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  border:2px solid black;
+  padding: 2px;
+}
+.img {width: 20%;
+height: 60px;
+position: relative;
+left: 4px;
+top: 8px;
+margin-top: 10px;
+float: left;
+}
+nav ul {
+  display:inline-flex;
+  justify-content: space-around;
+
+}
+
+.img1 {width: 40%;
+height: 400px;
+left: 637px;
+top: 836px;
+margin-right: 150px;
+}
+.img2 {max-width:800px;
+  width: 40%;
+height: 400px;
+left: 637px;
+top: 296px;}
+a:hover {
+    color: orange;
+    text-decoration: underline;
+  }
+footer {
+  position: relative;
+  margin-top: 60px;
+  background-color: #A64B29;
+  height:500px;
+}
+footer ul {
+
+  padding: 5px;
+  padding-top: 50px;
+
+}
+footer p {
+  float: right;
+position: absolute;
+right: 0;
+bottom: 0;
+}
+footer li{
+  background-color: green;
+}
+.formlist li{
+  background-color: blue;
+}
+nav {
+  margin-bottom: 40px;
+}
+button {background-color: yellow;
+  font-size:30px;
+margin-top:20px;}
+footer p{
+  display:block;
+
+}
+label{font-size: 16px;
+  text-align: center;
+  display:block;
+}
+form{width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  textarea{margin: 0 auto;
+  width: 100%;}
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: lightblue;
+  }
+li{font-size: 15px}
+}

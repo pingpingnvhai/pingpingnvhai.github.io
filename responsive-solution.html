@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- ADDED viewport meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive columns</title>
+    <style>
+      .wrapper {
+        max-width: 800px;
+        width: 80%;
+        margin: 0 auto;
+      }
+      .column {
+        float: left;
+        width: 31.33%;
+        margin: 0 1%;
+      }
+      .column img {
+        width: 100%;
+      }
+      
+      @media (max-width: 600px) {
+        .column {
+          width: 100%;
+          margin: 0;
+          float: none;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <div class="wrapper">        
+      <div class="column">
+        <img src="http://loremflickr.com/320/240/dog" alt="dog">
+        <p>Caption</p>
+      </div>
+      
+      <div class="column">
+        <img src="http://loremflickr.com/g/320/240/paris" alt="paris">
+        <p>Caption</p>
+      </div>
+      
+      <div class="column">
+        <img src="http://loremflickr.com/g/320/240/kitten" alt="kitten">
+        <p>Caption</p>
+      </div>
+    </div>
+  </body>
+</html>

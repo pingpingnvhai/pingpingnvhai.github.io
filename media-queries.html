@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media Queries</title>
+  <style>
+  body{
+    background-color: pink;
+    transition: all 1s;
+  }
+    /*targets any screen 1000px or smaller */
+    @media (max-width: 1000px) {
+      body {
+        background-image: url('bird1.jpg');
+      background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height:100vh;
+        width:100vw;
+      }
+
+        h1 {
+          font-size:80px;
+        font-style: italic;
+        text-decoration: underline;
+      }
+
+
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Testing media queries!</h1>
+</body>
+</html>

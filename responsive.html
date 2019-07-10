@@ -1,0 +1,69 @@
+<!--
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- ADDED viewport meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive columns</title>
+    <style>
+      .wrapper {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+      }
+      body{background-color: pink;}
+      .column {
+        float: left;
+        width: 30%;
+        margin: 0 5px;
+      }
+      .column-1{
+        background-color: red;
+      }
+      .column-2{
+        background-color: green;}
+      .column-3{
+          background-color: blue;}
+      @media(max-width:800px){
+        .column{
+          width: 50%
+      }
+      body {background-image: url('bird1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;}
+     }
+        img{
+        width: 100%;
+        height:100%;}
+      /*
+      1. make the images fit within the column
+      2. set the column width to a percentage
+      3. add max-width and percentage width to the .wrapper
+      4. add a media query to make the 3 columns turn into one for a smaller screen
+      */
+    </style>
+  </head>
+
+  <body>
+
+    <div class="wrapper">
+      <div class="column column-1">
+        <img src="http://loremflickr.com/320/240/dog" alt="dog">
+        <p>Caption</p>
+      </div>
+
+      <div class="column column-2">
+        <img src="http://loremflickr.com/g/320/240/paris" alt="paris">
+        <p>Caption</p>
+      </div>
+
+      <div class="column column-3">
+        <img src="http://loremflickr.com/g/320/240/kitten" alt="kitten">
+        <p>Caption</p>
+      </div>
+    </div>
+  </body>
+</html>

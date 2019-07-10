@@ -1,0 +1,28 @@
+body {
+   background-image: url('bird1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  font-family: 'Roboto', sans-serif;
+}
+nav {
+  background-color:  #BFC069;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+.img {width: 20%;
+height: 60px;
+}
+nav li{
+  background-color: lightblue;
+}
+li {
+  list-style: none;
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 20px;
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
